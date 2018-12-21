@@ -1,0 +1,4 @@
+100,Eric,Cartman,Salary,50200.00,56
+200,Stan,Marsh,Hourly,8.00,40
+300,Kenny,McCormick,Hourly,9.00,34
+400,Kyle,Broflovski,Hourly,16.00,50

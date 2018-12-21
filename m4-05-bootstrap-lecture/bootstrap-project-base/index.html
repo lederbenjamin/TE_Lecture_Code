@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  
+  <title>Bootstrap</title>
+</head>
+<body>
+
+
+<!-- save me for later -->
+
+
+
+<div class="fluid-container">
+
+	
+   <div class="jumbotron">
+      <div class="page-header">
+          <h1>ACME Wabbit Control<small>- Your #1 Wabbit Control Company</small></h1>
+      </div>
+				 <p>Elmer J Fudd, Chief Destruction Officer.</p>
+				 
+
+		 
+			 <p><a class="btn btn-primary btn-lg" href="#" role="button">Donate Now</a></p>
+	
+
+		</div>  
+	
+	
+	
+	
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Pricing</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropdown link
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+</div>
+
+
+<!--  show both container and container-fluid -->
+<div class="container">
+
+<!--
+	<div class="row">
+			<div class="col-lg-1" style="background-color:blue; height:100px">1</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">2</div>
+			<div class="col-lg-1" style="background-color:blue; height:100px">3</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">4</div>
+			<div class="col-lg-1" style="background-color:blue; height:100px">5</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">6</div>
+			<div class="col-lg-1" style="background-color:blue; height:100px">7</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">8</div>
+			<div class="col-lg-1" style="background-color:blue; height:100px">9</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">10</div>
+			<div class="col-lg-1" style="background-color:blue; height:100px">11</div>
+			<div class="col-lg-1" style="background-color:purple; height:100px">12</div>
+	</div>
+-->
+	
+	
+	<!--  show with lg  and show with sm -->
+
+	<!--
+    <div class="row">
+       <div class="col-lg-6" style="background-color:black; height:100px"></div>
+	   <div class="col-lg-6" style="background-color:orange; height:100px"></div>
+	</div>
+-->
+	
+
+	<!-- we choose col-sm-12 because in most cases, bootstrap can scale up to largest -->
+
+	<!--
+	<div class="row">
+			<div class="col-sm-12" style="background-color:orange; height:100px"></div>
+	</div>
+-->
+	
+
+	<!--TODO: Replace me with more than 12 -->
+<!--
+    <div class="row">
+	   <div class="col-sm-6" style="background-color:blue; height:100px"></div>
+	   <div class="col-sm-8" style="background-color:purple; height:100px"></div>
+	</div>
+-->
+	
+	<!-- show snappoints of sm  vs. medium (next set of divs) 
+		 1.  change colum sizes to 4 so it matches next set.
+		 2.  change screen size. 
+	-->
+	
+	<!--
+
+    <div class="row">
+       <div class="col-sm-4" style="background-color:red; height:100px"></div>
+	   <div class="col-sm-4" style="background-color:yellow; height:100px"></div>
+	   <div class="col-sm-4" style="background-color:green; height:100px"></div>
+	</div>
+	
+    <div class="row">
+       <div class="col-lg-4" style="background-color:red; height:100px"></div>
+	   <div class="col-lg-4" style="background-color:yellow; height:100px"></div>
+	   <div class="col-lg-4" style="background-color:green; height:100px"></div>
+	</div>
+-->
+	<!-- you can have different snappoints based on size -->
+  <!-- As soon as medium size or smaller is detected it switches to 4, 4, 4 -->
+
+<!--
+	<div class="row">
+       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" style="background-color:burlywood; height:100px"></div>
+	   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-8" style="background-color:black; height:100px"></div>
+	   <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2" style="background-color:brown; height:100px"></div>
+  </div>
+-->
+
+	<!--  the following is an example of the types of goofiness  you will see between versions -->
+	
+	<!--
+	<div class="row">
+       <div class="col-sm-4 col-offset-8" style="background-color:green; height:100px">col-offset-x does not work in v4</div>
+    </div>
+	
+	<div class="row">
+       <div class="col-sm-4 offset-4" style="background-color:green; height:100px">In v4, use offset-x and col-x</div>
+    </div>	
+	-->
+
+
+
+	<!-- You can nest and create any combination of boxes you wish. Here is an example: -->
+	
+	<!--
+	<div class="row">
+       <div class="col-sm-4" style="background-color:red; height:100px"></div>
+	   <div class="col-sm-4" style="background-color:yellow; height:100px">
+	        <div class="row">
+			   <div class="col-sm-2" style="background-color:black; height:50px"></div>
+			   <div class="col-sm-8" style="background-color:orange; height:50px"></div>
+			   <div class="col-sm-2" style="background-color:black; height:50px"></div>
+	        </div>
+	   </div>
+	   <div class="col-sm-4" style="background-color:green; height:100px"></div>
+	</div>
+-->
+
+		<!--  Here is an example of some glyphs -->
+
+	
+		
+	    <div class="row">
+           <div class="col-sm-4" style="background-color:orange; height:100px">
+		       <i class="fas fa-camera-retro fa-4x"></i>
+		   </div>
+		   <div class="col-sm-4" style="background-color:orange; height:100px">
+		       <i class="fas fa-circle-notch fa-spin fa-4x"></i>
+		   </div>
+		              <div class="col-sm-4" style="background-color:orange; height:100px">
+		       <i class="fas fa-bug fa-4x"></i>
+		   </div>
+       </div>	
+		
+	 
+	<!--  Here is an example of some buttons and other twitter controls --> 
+
+	
+	
+    <div class="row">
+       <div class="col-sm-12" style="background-color:burlywood; height:125px">
+	   
+
+			<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+					Help Me!
+			</a>
+
+
+			<div class="collapse" id="collapseExample">
+					<img src="../images/Elwa.gif" alt="..." class="rounded">
+				<div class="card card-body">
+					“Come and see the violence inherent in the system. Help! Help! I’m being repressed!”
+				</div>
+			</div>
+   
+	   
+	   </div>
+    </div>	   
+    
+
+
+	<div class="media">
+			<img class="align-self-center mr-3" src="../images/Elwa.gif" alt="Generic placeholder image">
+			<div class="media-body">
+			  <br/>	
+			  <h5 class="mt-0">Only African Swallows Can Lift Coconuts</h5><br/>
+			  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			  <br/>
+			
+			  <h5 class="mt-0">You've got two empty halves of coconut and you're bangin' 'em together.</h5><br/>
+			  <p>Guard: It's not a question of where he grips it! It's a simple question of weight ratios! A five ounce bird could not carry a one pound coconut.
+					King Arthur: Well, it doesn't matter. Will you go and tell your master that Arthur from the Court of Camelot is here?</p>
+			  <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			</div>
+		  </div>
+
+
+</div><!-- container -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
